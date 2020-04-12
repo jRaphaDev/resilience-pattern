@@ -1,5 +1,6 @@
 package br.com.pattern.resiliencia.circuitbreaker;
 
+import br.com.pattern.resiliencia.BackendService;
 import br.com.pattern.resiliencia.Proxy;
 import io.github.resilience4j.circuitbreaker.CircuitBreaker;
 
@@ -10,7 +11,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
-public class BackendServiceTest {
+public class ApplicationTest {
 
     private BackendService backendService;
     private Proxy proxy;

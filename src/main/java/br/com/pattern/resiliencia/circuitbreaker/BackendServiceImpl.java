@@ -1,5 +1,6 @@
 package br.com.pattern.resiliencia.circuitbreaker;
 
+import br.com.pattern.resiliencia.BackendService;
 import br.com.pattern.resiliencia.Proxy;
 
 

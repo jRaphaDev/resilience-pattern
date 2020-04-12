@@ -1,4 +1,4 @@
-package br.com.pattern.resiliencia.circuitbreaker;
+package br.com.pattern.resiliencia;
 
 public interface BackendService {
 
